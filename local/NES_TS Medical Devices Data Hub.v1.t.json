@@ -11,7 +11,7 @@
     },
     "otherContributors" : [ "Austin Mitchell austin.mitchell2@nhs.scot", "Ruth Alison ruth.alison@nhs.scot", "Susannah Mclean susannah.mclean2@nhs.scot", "Iain Robertson iain.robertson@gov.scot", "Jonathan Waldheim-Ross jonathan.waldheim-ross@nhs.scot" ],
     "lifecycleState" : {
-      "codeString" : "in_development"
+      "codeString" : "published"
     },
     "ipAcknowledgements" : { },
     "references" : { },
@@ -756,7 +756,7 @@
     "valueSets" : { }
   },
   "adlVersion" : "1.4",
-  "buildUid" : "2c583fd9-1c55-30fa-b490-9d15b6af37f4",
+  "buildUid" : "646dd162-e1b3-388c-a07a-ced74c286731",
   "rmName" : "openehr",
   "rmRelease" : "1.1.0",
   "generated" : true,
