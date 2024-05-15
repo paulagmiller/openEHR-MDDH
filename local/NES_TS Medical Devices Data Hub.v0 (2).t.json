@@ -22,9 +22,9 @@
       "original_namespace" : "",
       "original_publisher" : "",
       "custodian_namespace" : "",
-      "sem_ver" : "1.0.0",
+      "sem_ver" : "2.0.0",
       "build_uid" : "75f1ebce-78bd-4898-99b6-c888938e81cb",
-      "MD5-CAM-1.0.1" : "76085c5de457662fee6b3d3cf162b167",
+      "MD5-CAM-1.0.1" : "29b83e1d41c3df3fb7ced039ac297b34",
       "PARENT:MD5-CAM-1.0.1" : "2A789520F48E91960C4825733C8BA68F",
       "original_language" : "ISO_639-1::en"
     },
@@ -2019,47 +2019,47 @@
       "@type" : "RESOURCE_ANNOTATIONS",
       "documentation" : {
         "en" : {
-          "/description[at0001]/items[at0002]" : {
+          "/description[at0001]/items[at0002.1]" : {
             "Implementation Note" : "There may be multiple Code/Term pairs required. Developers should use the Mappings reference model attribute to store multiple codes"
           }
         },
         "de" : {
-          "/description[at0001]/items[at0002]" : {
+          "/description[at0001]/items[at0002.1]" : {
             "Implementation Note" : "There may be multiple Code/Term pairs required. Developers should use the Mappings reference model attribute to store multiple codes"
           }
         },
         "ru" : {
-          "/description[at0001]/items[at0002]" : {
+          "/description[at0001]/items[at0002.1]" : {
             "Implementation Note" : "There may be multiple Code/Term pairs required. Developers should use the Mappings reference model attribute to store multiple codes"
           }
         },
         "sv" : {
-          "/description[at0001]/items[at0002]" : {
+          "/description[at0001]/items[at0002.1]" : {
             "Implementation Note" : "There may be multiple Code/Term pairs required. Developers should use the Mappings reference model attribute to store multiple codes"
           }
         },
         "nb" : {
-          "/description[at0001]/items[at0002]" : {
+          "/description[at0001]/items[at0002.1]" : {
             "Implementation Note" : "There may be multiple Code/Term pairs required. Developers should use the Mappings reference model attribute to store multiple codes"
           }
         },
         "pt-br" : {
-          "/description[at0001]/items[at0002]" : {
+          "/description[at0001]/items[at0002.1]" : {
             "Implementation Note" : "There may be multiple Code/Term pairs required. Developers should use the Mappings reference model attribute to store multiple codes"
           }
         },
         "ar-sy" : {
-          "/description[at0001]/items[at0002]" : {
+          "/description[at0001]/items[at0002.1]" : {
             "Implementation Note" : "There may be multiple Code/Term pairs required. Developers should use the Mappings reference model attribute to store multiple codes"
           }
         },
         "sl" : {
-          "/description[at0001]/items[at0002]" : {
+          "/description[at0001]/items[at0002.1]" : {
             "Implementation Note" : "There may be multiple Code/Term pairs required. Developers should use the Mappings reference model attribute to store multiple codes"
           }
         },
         "es" : {
-          "/description[at0001]/items[at0002]" : {
+          "/description[at0001]/items[at0002.1]" : {
             "Implementation Note" : "There may be multiple Code/Term pairs required. Developers should use the Mappings reference model attribute to store multiple codes"
           }
         }
@@ -2631,6 +2631,36 @@
             "children" : [ {
               "@type" : "C_COMPLEX_OBJECT",
               "rmTypeName" : "ELEMENT",
+              "nodeId" : "at0002.1",
+              "attributes" : [ {
+                "@type" : "C_ATTRIBUTE",
+                "rmAttributeName" : "value",
+                "children" : [ {
+                  "@type" : "C_COMPLEX_OBJECT",
+                  "rmTypeName" : "DV_CODED_TEXT",
+                  "occurrences" : "1..1",
+                  "attributes" : [ {
+                    "@type" : "C_ATTRIBUTE",
+                    "rmAttributeName" : "defining_code",
+                    "children" : [ {
+                      "@type" : "C_TERMINOLOGY_CODE",
+                      "rmTypeName" : "TERMINOLOGY_CODE",
+                      "occurrences" : "0..1",
+                      "terminologyId" : {
+                        "value" : "NHS OPCS-4"
+                      },
+                      "constraint" : [ "ac0.1" ],
+                      "selectedTerminologies" : [ "NHS OPCS-4" ],
+                      "limitToList" : false
+                    } ]
+                  } ],
+                  "attributeTuples" : [ ]
+                } ]
+              } ],
+              "attributeTuples" : [ ]
+            }, {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "ELEMENT",
               "occurrences" : "0..0",
               "nodeId" : "at0049.1",
               "attributes" : [ ],
@@ -2924,7 +2954,11 @@
           }
         }
       },
-      "termBindings" : { },
+      "termBindings" : {
+        "NHS OPCS-4" : {
+          "ac0.1" : "terminology://fhir.hl7.org/CodeSystem?url=http://fhir.hl7.org.uk/CodeSystem/OPCS-4"
+        }
+      },
       "terminologyExtracts" : { },
       "valueSets" : { }
     },
