@@ -24,7 +24,7 @@
       "custodian_namespace" : "",
       "sem_ver" : "1.0.0",
       "build_uid" : "75f1ebce-78bd-4898-99b6-c888938e81cb",
-      "MD5-CAM-1.0.1" : "1922f9e0d9fd24d60eb162a4eb36b71c",
+      "MD5-CAM-1.0.1" : "dd6a270135afedee8fc9ca679f1e1b78",
       "PARENT:MD5-CAM-1.0.1" : "2A789520F48E91960C4825733C8BA68F",
       "original_language" : "ISO_639-1::en"
     },
@@ -3340,19 +3340,19 @@
           "@type" : "C_ARCHETYPE_ROOT",
           "rmTypeName" : "CLUSTER",
           "occurrences" : "0..1",
-          "nodeId" : "at0009.1",
+          "nodeId" : "at0026.1",
           "attributes" : [ ],
           "attributeTuples" : [ ],
-          "archetypeRef" : "openEHR-EHR-CLUSTER.ovl-medical_device_regulatory_details-001.v0",
+          "archetypeRef" : "openEHR-EHR-CLUSTER.ovl-anatomical_location-004.v1",
           "referenceType" : "archetypeOverlay"
         }, {
           "@type" : "C_ARCHETYPE_ROOT",
           "rmTypeName" : "CLUSTER",
           "occurrences" : "0..1",
-          "nodeId" : "at0026.1",
+          "nodeId" : "at0026.2",
           "attributes" : [ ],
           "attributeTuples" : [ ],
-          "archetypeRef" : "openEHR-EHR-CLUSTER.ovl-anatomical_location-004.v1",
+          "archetypeRef" : "openEHR-EHR-CLUSTER.ovl-medical_device_regulatory_details-001.v0",
           "referenceType" : "archetypeOverlay"
         } ]
       } ],
