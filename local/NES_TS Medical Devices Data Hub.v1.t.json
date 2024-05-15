@@ -11,7 +11,7 @@
     },
     "otherContributors" : [ "Austin Mitchell austin.mitchell2@nhs.scot", "Ruth Alison ruth.alison@nhs.scot", "Susannah Mclean susannah.mclean2@nhs.scot", "Iain Robertson iain.robertson@gov.scot", "Jonathan Waldheim-Ross jonathan.waldheim-ross@nhs.scot" ],
     "lifecycleState" : {
-      "codeString" : "deprecated"
+      "codeString" : "published"
     },
     "ipAcknowledgements" : { },
     "references" : { },
@@ -22,7 +22,7 @@
       "original_namespace" : "",
       "original_publisher" : "",
       "custodian_namespace" : "",
-      "sem_ver" : "2.0.0",
+      "sem_ver" : "1.0.0",
       "build_uid" : "75f1ebce-78bd-4898-99b6-c888938e81cb",
       "MD5-CAM-1.0.1" : "1922f9e0d9fd24d60eb162a4eb36b71c",
       "PARENT:MD5-CAM-1.0.1" : "2A789520F48E91960C4825733C8BA68F",
@@ -756,7 +756,7 @@
     "valueSets" : { }
   },
   "adlVersion" : "1.4",
-  "buildUid" : "0e081ece-4835-3055-b6f7-30c515e58732",
+  "buildUid" : "646dd162-e1b3-388c-a07a-ced74c286731",
   "rmName" : "openehr",
   "rmRelease" : "1.1.0",
   "generated" : true,
